@@ -1,0 +1,23 @@
+.grid-container {
+  display: grid;
+  height: 100vh;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.atm {
+  grid-column: 2/2;
+  grid-row: 2/2;
+}
+
+button {
+  cursor: pointer;
+  background-color: #fff;
+  border: solid 1px #111;
+  border-radius: 5px;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  font-weight: bold;
+  font-size: 14px;
+}
